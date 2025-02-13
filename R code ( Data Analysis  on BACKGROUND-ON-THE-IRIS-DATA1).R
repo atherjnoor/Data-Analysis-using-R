@@ -13,8 +13,8 @@ Virginica has absolutely the highest means for petal dimensions and sepal length
 
 Question3 ) Outlier Boxplot Analysis: Create boxplots for each variable for each species. What can you infer from these boxplots about the distribution and spread of these variables within each species?
   Rcode :par(mfrow = c(2,2))
-for(i in 1:4) {
-  boxplot(iris[,i] ~ iris$Species, main = names(iris)[i]) }
+for(i in 1:4) 
+{  boxplot(iris[,i] ~ iris$Species, main = names(iris)[i]) }
 
 
 The box plot describes as the petal dimension overlap minimally across the species which states that there is a big difference . The sepal width shows significant overlap which eventually makes it less useful for species differentiation. The difference between Sentosa and Virginca according to the box plot shows that Sentosa provides the lowest variability in all measurement and Virginica shows the most variability , however particularly in petal width . 
