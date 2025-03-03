@@ -21,5 +21,6 @@ The primary objective behind the collection of the Iris dataset was to systemati
 
 5. Bivariate Scatter Plots: Create scatter plots to visually examine the relationship between sepal length and width, and petal length and width within each species. Based on these scatter plots, do you see any patterns, trends, or outliers? 
 
+
 6. Differentiating Species: Based on your analysis in the previous questions, which of the variables (sepal or petal measurements) appears to best differentiate between the species? Provide a statistical rationale for your answer.
 
